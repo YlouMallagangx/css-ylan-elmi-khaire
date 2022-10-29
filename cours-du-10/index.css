@@ -1,0 +1,50 @@
+
+@import url(css/profil.css);
+@import url(css/texte.css);
+@import url(css/menu.css);
+@import url(css/header.css);
+@import url(css/home.css);
+@import url(css/central.css);
+@import url(css/carousel.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+body{
+        background: linear-gradient(-45deg, #f2ffc3, #ace699, #95ecef);
+        background-size: 400%;
+        animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.all {
+    height: 200vh;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.lien {
+    font-size: 20px;
+}

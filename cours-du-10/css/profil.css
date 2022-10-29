@@ -1,0 +1,39 @@
+.avatar {
+    width: 15vh;
+    border-radius: 40%;
+    margin: 0%;
+    display: flex;
+    margin-left: 3vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 40%;
+    opacity: 1;
+}
+
+
+.avatar :hover {
+    opacity: 0;
+    transform: 5s;
+}
+@media (max-width: 3000px){
+.logo {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vh;
+    animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }   to {
+            transform: rotate(-359deg);
+        }
+    
+}
+
+
+
+}
