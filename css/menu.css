@@ -43,9 +43,9 @@
   .select {
     font-family:'Lobster', cursive ;
     display: flex;
-    padding: 40px;
+    padding: 4px;
     justify-content: left;
-    margin-left: 37vh;
+    margin-left: 3vh;
 }
 }
 

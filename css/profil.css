@@ -1,21 +1,31 @@
 .avatar {
-    width: 15vh;
+    width: 7vh;
     border-radius: 40%;
     margin: 0%;
     display: flex;
-    margin-left: 3vh;
+    margin-left: 2vh;
     margin-top: 2vh;
     margin-bottom: 2vh;
     border: 3px solid rgb(0, 0, 0);
     border-radius: 40%;
-    opacity: 1;
+}
+
+@media screen {
+.avatar {
+    width: 7vh;
+    border-radius: 40%;
+    margin: 0%;
+    display: flex;
+    margin-left: 2vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 40%;
+}
 }
 
 
-.avatar :hover {
-    opacity: 0;
-    transform: 5s;
-}
+
 @media (max-width: 3000px){
 .logo {
     display: flex;

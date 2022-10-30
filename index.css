@@ -2,10 +2,9 @@
 @import url(css/profil.css);
 @import url(css/texte.css);
 @import url(css/menu.css);
-@import url(css/header.css);
-@import url(css/home.css);
 @import url(css/central.css);
 @import url(css/carousel.css);
+@import url(css/footer.css);
 
 
 *{
@@ -31,10 +30,6 @@ body{
 	100% {
 		background-position: 0% 50%;
 	}
-}
-
-.all {
-    height: 200vh;
 }
 
 li {
